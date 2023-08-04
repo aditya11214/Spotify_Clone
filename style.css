@@ -1,0 +1,477 @@
+*{
+    /* background-color: #282828; */
+    margin:0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+}
+.main-section{
+    display:flex;
+
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.side-bar{
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: left;
+     width: 19vw;
+     height: 87vh;
+     /* flex-shrink: 0; */
+     color: white;
+     background-color: black;
+     padding-top: 20px;
+     padding-left: 10px;
+     padding: 20px;
+     flex-wrap: wrap;
+     /* font-size: 19px; */
+     /* font-weight: 700; */
+     position: sticky;
+     top:0px;
+    
+     overflow-y: scroll;
+}
+.logo{
+    width:100px;
+    height:60px;
+    /* flex-shrink: 0; */
+    background-color: black;
+    margin-bottom: 10px;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+    /* flex-wrap: wrap; */
+}
+.nav1>div{
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    align-items: center;
+    width: 15vw;
+    height: 40px;
+    padding:5px ;
+   
+
+}
+.nav1>div:hover{
+    border-radius: 6px;
+    background-color: #282828;
+   
+}
+.nav1>div:active{
+    border-radius: 6px;
+    background-color: #282828;
+}
+.nav1>div>a{
+    /* margin-bottom: 10px; */
+    text-decoration: none;
+    color: white;
+    margin-right:20px;
+}
+.nav1>div>img{
+    width: 20px;
+    height: 20px;
+    /* flex-shrink: 0; */
+    margin-right: 10px;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: black;
+     margin-bottom: 5px;
+     flex-wrap: wrap;
+}
+.nav2>div{
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    width: 15vw;
+    height: 40px;
+    padding:5px ;
+    margin-bottom: 10px;
+    
+
+}
+.nav2>div:hover{
+    border-radius: 6px;
+    background-color: #282828;
+    cursor: pointer;
+   
+}
+.nav2>div>a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right:20px;
+    width: 37.057px;
+    height: 37.057px;
+    
+}
+.nav2>div>img{
+    width: 20px;
+    height: 22px;
+    /* flex-shrink: 0; */
+    
+    
+}
+.bg-light-green{
+   background-color: #004638;
+}
+.nav3{
+    cursor: pointer;
+    padding-left: 13px;
+     margin-bottom: 5px;
+}
+.install>div>a{
+    margin-right: 20px;
+     margin-top: 5px;
+}
+
+
+
+
+
+
+.right-part{
+    overflow-y: scroll;
+     width: 80%;
+     height: 100%;
+     background-color: #212121;
+     
+ }
+ .logo{
+     width: 140px;
+     margin-left: 30px;
+ }
+ .home, .search, .library, .playlist,
+  .liked-songs, .episodes, .install{
+     display: flex;
+     align-items: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     border-radius: 5px;
+     width: 95%;
+     transition: all 0.2s ease-in-out;
+  }
+ 
+  .home:hover, .search:hover, 
+  .library:hover, .playlist:hover,
+  .liked-songs:hover, .episodes:hover, .install:hover{
+   cursor: pointer;
+   background-color: #212121;
+  }
+  
+ .home-container, .playlist-container, 
+ .fav-tags{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .active{
+     background-color: #212121;
+     
+ }
+ .fav-tags{
+     padding-left: 15px;
+ }
+ .fav-tags h2{
+     padding: 3px 0;
+ }
+ 
+ 
+ 
+  .leftnavh2{
+     font-size: 13px;
+     color: whitesmoke;
+  }
+ 
+  .leftnavimg{
+     width: 22px;
+     margin-right: 15px;
+  }
+  .install{
+     margin-bottom: 10px;
+     margin-top: -10px;
+  }
+  .dwn{
+     margin-right: 15px;
+     width: 20px;
+  }
+ 
+ 
+ 
+ 
+ 
+  .nav{
+     margin-top: 10px;
+     margin-left: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+     width: 95%;
+     
+  }
+  .left-right{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+  }
+  .left-right img{
+     width: 30px;
+     transition: all 0.2s ease-in;
+  }
+  .left-right img:hover{
+   box-shadow: 1px 1px 20px gray;
+   cursor: pointer;
+  }
+ 
+  .profile{
+     display: flex;
+     align-items: center;
+     background-color: #000000;
+     padding: 3px;
+     border-radius: 20px;
+     gap: 0.8rem;
+     transition: all 0.2s ease-in-out;
+  }
+  .profile:hover{
+   box-shadow: 1px 1px 10px gray;
+   cursor: pointer;
+  }
+ 
+  .profile h3{
+     font-size: 15px;
+     color: white;
+  }
+ 
+
+    
+  .goodmrng>h1{
+    color: whitesmoke;
+    font-size: 22px;
+    margin: 8px 0;
+  }
+ 
+  .likedcardholder{
+    display: flex;
+    
+    gap: 1rem;
+   
+    flex-wrap: wrap;
+   
+  }
+ 
+  .likedcards{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color:#303030 ;
+    transition: all 0.2s ease-in;
+  }
+  .likedcards:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 10px gray;
+  }
+  .likedcards>img{
+    width: 50px;
+    margin-right: 10px;
+  }
+  .likedcards>h2{
+    font-size: 14px;
+    color: whitesmoke;
+    word-break: break-all;
+  }
+ 
+ 
+  
+ .shows{
+    padding: 0px 50px;
+   
+ }
+ .shows>div{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .shows>div>a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+ }
+ .shows>div>a:hover{
+   cursor: pointer;
+   color: white;
+   font-weight: 600;
+ }
+ 
+ .shows>div>h1{
+    margin-top: 18px;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+ }
+ 
+ .showsCards{
+    padding-right: 80px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+ }
+  .showCard{
+    background-color: #181818;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  .showCard:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 10px gray;
+  }
+  .showCard>h2{
+    font-size: 14px;
+    color: whitesmoke;
+  }
+  .showCard>p{
+    font-size: 12px;
+    color: whitesmoke;
+  }
+  .showCard>img{
+    width: 130px;
+  }
+ 
+  .alex{
+    height: 130px;
+  }
+
+/*footer*/
+
+  .footer-music-player {
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    background-color: #181818;
+    transition: all 0.5s ease;
+}
+
+#btn:hover {
+    scale: 1.1;
+    border-radius: 50%;
+    
+    box-shadow: 0px 0px 8px rgb(55, 54, 54);
+}
+
+.current-play {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.9;
+    width: 20vw;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 10px;
+}
+
+#green_heart {
+    transition: all 0.5s ease;
+}
+
+#green_heart:hover {
+    scale: 1.2;
+}
+
+.volume-controls {
+    width: 20vw;
+}
+
+.player-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.volume-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.player-timeline {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.timeline-slider {
+    margin: 0 10px;
+    width: 40vw;
+    border-radius: 50%;
+}
+
+.volume-slider {
+    width: 100px;
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.timeline-slider:hover,
+.volume-slider:hover {
+    background-color: #1bd760;
+}
+
+
+
+.timeline-slider::-webkit-slider-runnable-track,
+.volume-slider::-webkit-slider-runnable-track {
+    height: 4px;
+    background: #ddd;
+    border: none;
+    border-radius: 100px;
+}
+
+.timeline-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #1bd760;
+    margin-top: -6px;
+}
+
+.timeline-slider:focus,
+.volume-slider:focus {
+    outline: none;
+}
+
+.timeline-slider:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
